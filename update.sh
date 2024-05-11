@@ -1,6 +1,6 @@
 #!/bin/bash
 docker build -t jenkins-test:latest .
-fi
+
 docker run -d --name jenkins-test \
 --restart always \
 --net=host \
